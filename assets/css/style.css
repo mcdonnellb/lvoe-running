@@ -20,6 +20,7 @@ color:#3a3a3a;
 p{
 
     font-family: 'Lato', sans-serif;
+    background: lightblue url('Jessie.jpg') no-repeat fixed center;
 
 }
 
@@ -40,4 +41,55 @@ h1, h2  {
 
 float:left;
 font-size:200%;
+}
+
+#menu {
+font-size: 110%;
+letter-spacing:4px;
+}
+
+#menu li {
+float: right;
+   list-style-type: none; 
+    margin-right:30px;
+
+}
+
+#hero-outer {
+
+    height: 600px;
+    width:100%;
+    background: url('../images/hero-image.webp') no-repeat fixed center;
+   overflow: hidden;
+
+
+}
+
+
+#hero-image {
+
+    height: 600px;
+    width:100%;
+    background: url('../images/hero-image.webp') no-repeat fixed center;
+   
+/* animates zoom effect on loading page*/
+
+animation-name: hero-zoom;
+animation-duration:5s;
+animation-fill-mode: forwards;
+
+}
+
+
+/*creates the lvel of zoom for the zzoom on hero image */
+
+@keyframes hero-zoom {
+from {
+transform: scale(1);
+}
+
+to {
+
+transform: scale(1.1);
+}
 }
