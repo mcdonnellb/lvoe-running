@@ -20,7 +20,7 @@ color:#3a3a3a;
 p{
 
     font-family: 'Lato', sans-serif;
-    background: lightblue url('Jessie.jpg') no-repeat fixed center;
+  
 
 }
 
@@ -120,18 +120,50 @@ position:absolute;
 
 #left-about {
     float:left;
-    padding:30px;
+    padding-top:30px;
     width:33%;
-    background-color:blue;
+    
 
 }
+
+.left-about-heading {
+
+width:60%;
+float:left;
+line-height:20px;
+clear:both;
+margin-bottom:50px;
+
+}
+
+
+
+.right-about-heading {
+
+    width:60%;
+    float: right;
+    line-height:20px;
+    clear:both;
+    margin-bottom:50px;
+    
+    }
+
+    .right_about-heading h2 {
+
+        text-align: right;
+    }
+
+    .right-about-heading p {
+text-align: right;
+
+    }
 
 #right-about {
 
 float:right;
 padding:30px;
 width:33%;
-background-color:silver;
+
 }
 
 #centre-about {
@@ -146,5 +178,13 @@ background-color:silver;
 
     height: 600px;
 
+
+}
+
+hr {
+
+    border-top:1px solid #3a3a3a;
+    width:100%;
+    margin:5px 0;
 
 }
