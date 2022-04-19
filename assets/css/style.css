@@ -41,6 +41,7 @@ h1, h2  {
 
 float:left;
 font-size:200%;
+margin-left:30 px;
 }
 
 #menu {
@@ -115,4 +116,35 @@ background-color: rgba(155,0,0,0.5);
 bottom:30px;
 right: 150px;
 position:absolute;
+}
+
+#left-about {
+    float:left;
+    padding:30px;
+    width:33%;
+    background-color:blue;
+
+}
+
+#right-about {
+
+float:right;
+padding:30px;
+width:33%;
+background-color:silver;
+}
+
+#centre-about {
+    margin: 0 auto;
+    width:33%;
+    background-color:green;
+
+
+}
+
+#club-ethos {
+
+    height: 600px;
+
+
 }
