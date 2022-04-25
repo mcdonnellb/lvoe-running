@@ -325,6 +325,14 @@ hr {
 display: none;
 
 }
+
+#times > div {
+
+    width:100%;
+    clear:both;
+    height: 150px;
+    padding:0;
+}
  }
 
    /* For  medium screen size from 950 px wide and down */
@@ -370,4 +378,20 @@ text-align:center;
             padding:0 20px;
             
                     }
+
+#photos {
+
+    column-count: 3;
+}
+
+@media screen and (max-width:800px ){
+    #photos {
+
+        column-count: 2;
+    } 
+}
+
+
+
+
         }
