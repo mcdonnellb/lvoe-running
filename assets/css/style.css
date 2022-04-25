@@ -218,3 +218,14 @@ margin: 0 auto;
     border-radius:50%;
 
 }
+
+#times {
+
+background: url('../images/dublin-city.webp');
+background-repeat: no repeat;
+background-size: cover;
+background-position:venter;
+width:100%;
+overflow:hidden;
+
+}
